@@ -1,18 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -1149,19 +1135,7 @@ body.active { overflow: hidden; }
   border-block-end: 2px solid var(--independence_30);
 }
 
-.footer-top::after {
-  content: url(../images/delivery-boy.svg);
-  position: absolute;
-  bottom: -11px;
-  left: -160px;
-  width: 160px;
-  animation: running-cycle 20s linear infinite;
-}
 
-@keyframes running-cycle {
-  0% { left: -160px; }
-  100% { left: 100%; }
-}
 
 .footer-top .container {
   display: grid;
